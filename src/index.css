@@ -274,8 +274,12 @@ nav {
 }
 .nav-toggle:hover {
   color: var(--primary-700);
-  transform: rotate(90deg);
 }
+.nav-toggle-btn {
+  transition: var(--transition);
+  transform: rotate(180deg);
+}
+
 .title {
   display: flex;
   align-items: baseline;

@@ -4,12 +4,14 @@ import { links, social } from "../data";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
   const linksContainerRef = useRef(null);
   const linksRef = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
+    setIsActive(!isActive);
   };
 
   const linkStyles = {
@@ -26,7 +28,10 @@ const Navbar = () => {
             <h4>Navbar </h4>
             <h5>Project</h5>
           </div>
-          <button className="nav-toggle" onClick={toggleLinks}>
+          <button
+            className={isActive ? "nav-toggle nav-toggle-btn" : "nav-toggle "}
+            onClick={toggleLinks}
+          >
             <FaBars />
           </button>
         </div>
