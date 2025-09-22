@@ -20,7 +20,7 @@ A modern, responsive navigation bar component built with React. Features smooth 
     <td align="center"><strong>💻 Desktop View</strong></td>
   </tr>
   <tr>
-    <td align="center"><img src="./src/assets/demo/Web.gif" width="100%" alt="Desktop View showing Color Palette Generator"/></td>
+    <td align="center"><img src="./src/assets/demo/Web.gif" width="100%" alt="Desktop View showing Navbar"/></td>
   </tr>
   
   <tr>
